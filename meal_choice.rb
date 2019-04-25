@@ -2,5 +2,5 @@
 # passed into it and defaults to meat.
 def meal_choice(option= "vegan", food = "meat")
   print "This is my favorite #{food}"
-  return "vegan"
+  return #{option}
 end
